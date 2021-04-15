@@ -6,6 +6,7 @@
     font-family: 'Play', sans-serif;
     list-style-type: none;
     max-width: 100%;
+    scroll-behavior: smooth;
 }
 header{
     background-color: #2b2b2b;
@@ -26,7 +27,6 @@ a.nav:hover{
 }
 .article{
     border-top: 2px;
-    border-color: white;
     background: linear-gradient(to bottom, #2b2b2b ,black);
 }
 h2{
@@ -70,13 +70,13 @@ h3{
 .zoom_out_2{
     margin-right: 6vw;
 }
-.center_video:hover{
+.center_video_2:hover{
     transform: scale(2) ;
     margin-left: 20vw;
     margin-right: auto;
 }
-.center_video:active{
-    transform: scale(3);
+.center_video_2:active{
+    transform: scale(2.5);
     margin-left: 30vw;
     margin-right: auto;
 }
@@ -89,4 +89,55 @@ h3{
     transform: scale(3);
     margin-left: auto;
     margin-right: 50vw;
+}
+.center_video_2{
+    transition: 1s;
+    margin-top: 0.2vw;
+    margin-left:30%
+}
+.center_video:hover{
+    transform: scale(2) ;
+}
+.center_video:active{
+    transform: scale(2.5);
+}
+
+.article_text{
+    padding-top: 5vw;
+    background: linear-gradient(to bottom, black ,#2b2b2b);
+}
+.center_2{
+    padding-top: 3vw;
+    margin-left: 45.5%;
+}
+.function_2{
+    padding-top: 1vw;
+    margin-left: 45.5%;
+}
+h4{
+    text-align: center;
+    font-size: 14px;
+}
+.function_3{
+    padding-top: 1vw;
+    margin-left: 43.5%;
+}
+.center_3{
+    padding-top: 3vw;
+    margin-left: 44%;
+}
+.active{
+    color:orange;
+}
+.function_4{
+    padding-top: 1vw;
+    margin-left: 42.5%;
+}
+.function_5{
+    padding-top: 1vw;
+    margin-left: 22.5%;
+
+}
+.buffer{
+    background-color: black;
 }

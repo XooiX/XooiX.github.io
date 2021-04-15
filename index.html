@@ -14,15 +14,14 @@
     <header>
         <nav>
             <ul class="navigation">
-                <li><a href=#main class="nav">Основные функции</a></li>
-                <li><a href=#textdecoration class="nav">Изменение текста</a></li>
+                <li><a href=#textdecor class="nav">Изменение текста</a></li>
                 <li><a href=#backgroundedit class="nav">Замещение фона</a></li>
-                <li><a href=#backgroundedit class="nav">Настройка кисти</a></li>
+                <li><a href=#brushsetting class="nav">Настройка кисти</a></li>
                 <li><a href=#projectsave class="nav">Сохранение файла</a></li>
             </ul>
         </nav>
     </header>
-    <article id="#main" class="article">
+    <article  class="article">
         <h2>Основные функции которые нам нужны</h2>
         <img src="img/1.png" alt="function" class="function"></img><br>
         <img src="img/2.png" alt="moving" class="moving center">
@@ -34,7 +33,7 @@
         <video class="center_video" height="400"src="video/size.mp4" autoplay loop muted></video>
         <h3 class="center_text">Данный инструмент мы можем использовать для того, чтобы выделить область которую мы захотим зарисовать </h3>
         <img src="img/4.png" alt="moving" class="moving center border">
-        <h1 class="center_text">Инструмент "Кисть" (актив. на клавиатуре "B(рус.И)"</h1>
+        <h1 class="center_text">Инструмент "Кисть" (актив. на клавиатуре "B(рус.И так же ПКМ мыши по холсту)"</h1>
         <video class="center_video" height="400"src="video/marker.mp4" autoplay loop muted></video>
         <h3 class="center_text">Основной инструмент которым мы будем пользоваться</h3>
         <img src="img/5.png" alt="moving" class="moving center border">
@@ -49,36 +48,87 @@
             <div class="zoom_in">
                 <img src="img/6_1.png" alt="moving" class="moving center border">
                 <h1 class="center_text">Инструмент "Масштаб увелечение"</h1>
-                <video class="center_video " height="300"src="video/zoom_in.mp4" autoplay loop muted></video>
+                <video class="center_video_2 " height="300"src="video/zoom_in.mp4" autoplay loop muted></video>
                 <h3 class="center_text">Данным инструментом наша картинка увеличивается в ту область где находится курсор мыши</h3>
             </div>
             <div class="zoom_out">
                 <img src="img/6_2.png" alt="moving" class="moving center border">
                 <h1 class="center_text">Инструмент"Масштаб уменьшение"</h1>
-                <video class="center_video left" height="300"src="video/zoom_out.mp4" autoplay loop muted></video>
+                <video class="center_video_2 left" height="300"src="video/zoom_out.mp4" autoplay loop muted></video>
                 <h3 class="center_text">Данным инструментом наша картинка уменьшается и становится по центру рабочей области</h3>
             </div>
         </div>
         <img src="img/7.png" alt="moving" class="moving center border">
-        <h1 class="center_text">Инструмент "Выбор цвета"</h1>
+        <h1 id="select_color" class="center_text">Инструмент "Выбор цвета"</h1>
         <h3 class="center_text">Данный инструментом мы будем выбирать нужный нам цвет, можно сохранять до 2-х цветов</h3>
         <div class="zoom_in_out">
             <div class="zoom_in">
                 <img src="img/7_1.png" alt="moving" class="moving center border">
                 <h1 class="center_text">Смена на 2-ой цвет</h1>
-                <video class="center_video" height="300"src="video/change_color.mp4" autoplay loop muted></video>
+                <video class="center_video_2" height="300"src="video/change_color.mp4" autoplay loop muted></video>
                 <h3 class="center_text">По щелчку на две стрелочки которые направлены в разные стороны мы можем менять наш цвето на 2-ой</h3>
             </div>
             <div class="zoom_out_2">
                 <img src="img/7_2.png" alt="moving" class="moving center border">
                 <h1 class="center_text">Пепетка</h1>
-                <video class="center_video left" height="300"src="video/select_color.mp4" autoplay loop muted></video>
+                <video class="center_video_2 left" height="300"src="video/select_color.mp4" autoplay loop muted></video>
                 <h3 class="center_text">Выбор цвета с помощью пипетки встроенной в "Выбор цвета"</h3>
             </div>
         </div>
     </article>
-    <article id="#textdecoration">
-
+    <article id="textdecor" class="article_text">
+        <h2 id="#textdecor">Изменение текста</h2>
+        <img src="img/1_1.png" alt="function" class="function"></img><br>
+        <img src="img/10.png" alt="moving" class="moving center_2">
+        <h1 class="center_text">Изменение шрифта</h1>
+        <video class="center_video" height="400"src="video/change_font.mp4" autoplay loop muted></video>
+        <h3 class="center_text">С данной функцией мы можем изменить шрифт на любой что нам нравится</h3>
+        <img src="img/11.png" alt="moving" class="moving center_2">
+        <h1 class="center_text">Изменение жирности</h1>
+        <video class="center_video" height="400"src="video/font_weight.mp4" autoplay loop muted></video>
+        <h3 class="center_text">Делаем шрифт более толстым или более тонким</h3>
+        <img src="img/12.png" alt="moving" class="moving center_2">
+        <h1 class="center_text">Изменение размера</h1>
+        <video class="center_video" height="400"src="video/font_size.mp4" autoplay loop muted></video>
+        <h3 class="center_text">Увеличиваем или уменьшаем размер шрифта по стандарным значениям или указываем сами</h3>
+        <img src="img/13.png" alt="moving" class="moving center_2">
+        <h1 class="center_text">Изменение цвета шрифта</h1>
+        <video class="center_video" height="400"src="video/text_color.mp4" autoplay loop muted></video>
+        <h3 class="center_text">Изменяет цвет шрифта на тот, что нам понравится</h3>
     </article>
+    <article id="backgroundedit" class="article">
+        <h2>Замещение фона</h2>
+        <h1 class="center_text">↓Инструменты что нам понадобятся для этого↓</h1>
+        <img src="img/1_2.png" alt="function" class="function_2"></img><br>
+        <h4>Орудуя данными инструментами мы можем идеально заменить определенную поверхность под общий фон</h4>
+    </article>
+    <article id="brushsetting" class="article_text">
+        <h2>Настройка кисти</h2>
+        <img src="img/1_3.png" alt="function" class="function_3"></img><br>
+        <h1 class="center_text">↓Инструменты что нам понадобятся для этого↓</h1>
+        <img src="img/21.png" alt="moving" class="moving center_3">
+        <h1 class="center_text">Изменение размера кисти</h1>
+        <video class="center_video" height="400"src="video/brush_size.mp4" autoplay loop muted></video>
+        <h3 class="center_text">Изменяет размер кисти в диаметре как не странно :)</h3>
+        <img src="img/22.png" alt="moving" class="moving center_3">
+        <h1 class="center_text">Изменение жесткости кисти</h1>
+        <video class="center_video" height="400"src="video/brush_blur.mp4" autoplay loop muted></video>
+        <h3 class="center_text">Размытость начния с окружности кисти</h3>
+        <h4>Так же нам понадобится настройка цвета кисти, но я это рассказывал выше <a href="#select_color" class="active">Чтобы прочитать заново, если забыль</a></h4>
+    </article>
+    <article id= #projectsave class="article">
+        <h2>Сохранение проекта</h2>
+        <h1 class="center_text">Нужно запомнить эту поэтапную инструкцию!</h1>
+        <img src="img/1_4.png" alt="function" class="function_4"></img><br>
+        <img src="img/1_5.png" alt="function" class="function_4"></img><br>
+        <img src="img/41.png" alt="function" class="function_5"></img><br>
+        <h1 class="center_text">Далее выбираем нужный нам тип файла: JPEG или PNG, где после выбора нажимаем кнопку "Сохранить"</h1>
+        <img src="img/42.png" alt="function" class="function_5"></img><br>
+        <img src="img/43.png" alt="function" class="function_4"></img><br>
+        <h1 class="center_text">Если выбрали тип файла JPEG, то делаем такие же настройки как на фото. Если измененный текст выделяется, то играемся с качеством картинки (меньше 9 не ставить!)</h1>
+    </article>
+    <div class="buffer">
+        <h2>Создателю будет приятно, если вы скажите спасибо <br><a href="https://t.me/dkwhatimdoing" class="active">Спасибо говорить сюда</a></h2>
+    </div>
 </body>
 </html>
