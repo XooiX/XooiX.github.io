@@ -5,6 +5,7 @@
     color:white;
     font-family: 'Play', sans-serif;
     list-style-type: none;
+    max-width: 100%;
 }
 header{
     background-color: #2b2b2b;
@@ -27,7 +28,6 @@ a.nav:hover{
     border-top: 2px;
     border-color: white;
     background: linear-gradient(to bottom, #2b2b2b ,black);
-    height: 100vh;
 }
 h2{
     padding-top: 5vw;
@@ -55,9 +55,38 @@ h3{
     font-size:14px;
 }
 .center_video{
+    transition: 1s;
     margin-top: 0.2vw;
     margin-left:30%
 }
 .border{
     padding-top: 3vw;
+}
+.zoom_in_out{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+.zoom_out_2{
+    margin-right: 6vw;
+}
+.center_video:hover{
+    transform: scale(2) ;
+    margin-left: 20vw;
+    margin-right: auto;
+}
+.center_video:active{
+    transform: scale(3);
+    margin-left: 30vw;
+    margin-right: auto;
+}
+.left:hover{
+    transform: scale(2);
+    margin-left: auto;
+    margin-right: 20vw;
+}
+.left:active{
+    transform: scale(3);
+    margin-left: auto;
+    margin-right: 50vw;
 }
